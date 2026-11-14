@@ -1,0 +1,17 @@
+Rutgers WebReg Course Watcher - Installation / 安装说明
+
+English
+1. Extract WebRegWatcher-macOS.zip.
+2. Open WebRegWatcher.app. If macOS blocks the unsigned app, Control-click it in Finder and choose Open, then confirm only if you trust its source.
+3. Sign in to your own Safari sessions for the course-alert dashboard and Rutgers WebReg.
+4. Enable Safari Develop > Allow JavaScript from Apple Events and allow the app to control Safari if prompted.
+5. Click Start Monitoring. The app automatically submits when an opening is detected. Stop ends monitoring.
+Requirements: macOS 13+, Python 3.9+. Package includes Apple Silicon and Intel builds. Not Developer ID signed or notarized.
+
+简体中文
+1. 解压 WebRegWatcher-macOS.zip。
+2. 打开 WebRegWatcher.app。若 macOS 阻止未签名应用，在 Finder 中按住 Control 点按应用，选择“打开”；确认信任来源后再继续。
+3. 在 Safari 登录自己的课程提醒页面和 Rutgers WebReg。
+4. 开启 Safari Develop > Allow JavaScript from Apple Events；如系统询问，允许应用控制 Safari。
+5. 点击“开始监听”。发现开放后应用会自动提交；点击“停止”结束监听。
+要求：macOS 13+、Python 3.9+。安装包支持 Apple 芯片和 Intel Mac，未使用 Apple Developer ID 签名或公证。
