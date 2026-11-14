@@ -1,0 +1,57 @@
+RUTGERS WEBREG COURSE WATCHER
+BILINGUAL USER GUIDE / 中英文使用说明
+
+ENGLISH
+
+WHAT IT DOES
+This macOS app monitors the active course alert list and operates Rutgers WebReg through Safari tabs that you have already signed into. It refreshes the alert dashboard every 5 seconds and WebReg every 60 seconds. The app displays each detected course name, section/code, index, and status.
+
+IMPORTANT: AUTOMATIC REGISTRATION
+When an opening is detected, the watcher fills that course's index and clicks the WebReg submit button automatically. This can change your real schedule. Review the active course list and your registration intent before starting. The tool submits one course index at a time. It does not guarantee that a seat remains available or that WebReg will accept the request.
+
+REQUIREMENTS
+- macOS 13 or later; the package supports Apple Silicon and Intel Macs.
+- Python 3.9 or later.
+- Safari signed in to the course-alert dashboard and Rutgers WebReg.
+- Safari Develop setting: Allow JavaScript from Apple Events.
+- Allow the app to control Safari if macOS prompts you.
+
+QUICK START
+1. Extract release/WebRegWatcher-macOS.zip.
+2. Open WebRegWatcher.app. If macOS blocks it, Control-click the app in Finder, choose Open, and confirm only if you trust the source.
+3. Sign in to your own Safari sessions and configure your active course alerts.
+4. Click Start Monitoring. Use Stop to end monitoring.
+
+SOURCE FILES
+src/Launcher.swift: macOS app window and launcher.
+src/watcher_dynamic.py: course monitoring and WebReg automation.
+
+This independent project is not affiliated with Rutgers University or Schedru. It stores no account password and uses the current Safari session. Follow Rutgers registration rules.
+
+
+简体中文
+
+软件功能
+本 macOS 应用读取 Active Snipes 中的课程空位提醒，并通过你已登录的 Safari 标签页操作 Rutgers WebReg。程序每 5 秒刷新空位提醒页面，每 60 秒刷新 WebReg，并显示识别到的课程名称、课程/section 代码、index 和状态。
+
+重要：自动提交
+检测到课程开放后，程序会自动填写该课程的 index 并点击 WebReg 提交按钮，可能改变你的真实课表。启动前请检查 active 课程列表和注册意图。每次只提交一个课程 index。程序不保证名额仍然可用，也不保证 WebReg 接受请求。
+
+运行要求
+- macOS 13 或更新版本；安装包支持 Apple 芯片和 Intel Mac。
+- Python 3.9 或更新版本。
+- Safari 已登录课程空位提醒页面和 Rutgers WebReg。
+- Safari 的 Develop 设置中开启 Allow JavaScript from Apple Events。
+- 如 macOS 询问，请允许应用控制 Safari。
+
+快速开始
+1. 解压 release/WebRegWatcher-macOS.zip。
+2. 打开 WebRegWatcher.app。如果 macOS 阻止打开，在 Finder 中按住 Control 点按应用，选择“打开”；请确认信任来源后再继续。
+3. 登录自己的 Safari 会话，并设置要监听的课程。
+4. 点击“开始监听”；点击“停止”结束监听。
+
+源码文件
+src/Launcher.swift：macOS 窗口与启动器。
+src/watcher_dynamic.py：课程监听与 WebReg 自动操作。
+
+本项目为独立项目，与 Rutgers University 或 Schedru 无隶属关系。程序不保存账号密码，而是使用当前 Safari 登录会话。请遵守 Rutgers 注册规则。
