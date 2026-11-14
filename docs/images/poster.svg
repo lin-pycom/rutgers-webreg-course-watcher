@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#8f0d2f"/><stop offset="1" stop-color="#1b1830"/></linearGradient><linearGradient id="gold"><stop stop-color="#ffe7a0"/><stop offset="1" stop-color="#ffb84a"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#090817" flood-opacity=".35"/></filter></defs>
+<rect width="1200" height="1600" fill="url(#bg)"/><circle cx="1040" cy="180" r="220" fill="#d92d55" opacity=".2"/><circle cx="80" cy="1380" r="300" fill="#faad49" opacity=".08"/>
+<text x="80" y="110" fill="#ffcf72" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="5">RUTGERS WEBREG ASSISTANT</text>
+<text x="80" y="235" fill="white" font-family="Arial,sans-serif" font-size="72" font-weight="800">WebReg 选课</text><text x="80" y="325" fill="white" font-family="Arial,sans-serif" font-size="72" font-weight="800">空位及时提交</text>
+<text x="84" y="390" fill="#f7dbe2" font-family="Arial,sans-serif" font-size="28">围绕 Rutgers WebReg 注册流程设计</text>
+<g filter="url(#shadow)"><rect x="72" y="475" width="1056" height="780" rx="36" fill="#fffaf3"/></g>
+<g font-family="Arial,sans-serif"><g fill="#a10f35" font-size="30" font-weight="700"><text x="132" y="585">01</text><text x="132" y="755">02</text><text x="132" y="925">03</text><text x="132" y="1095">04</text></g>
+<g fill="#211d29" font-size="38" font-weight="700"><text x="220" y="585">WebReg 注册页随时待命</text><text x="220" y="755">空位提醒每 5 秒检查</text><text x="220" y="925">自动填写课程并提交</text><text x="220" y="1095">每次只提交一门开放课程</text></g>
+<g fill="#68616b" font-size="24"><text x="220" y="632">沿用已登录的 Rutgers Safari 页面</text><text x="220" y="802">监控关注课程的空位状态变化</text><text x="220" y="972">WebReg 页面每分钟刷新保持待命</text><text x="220" y="1142">课程名称、section、index 清楚显示</text></g>
+<g stroke="#eadfe0" stroke-width="2"><line x1="130" y1="680" x2="1070" y2="680"/><line x1="130" y1="850" x2="1070" y2="850"/><line x1="130" y1="1020" x2="1070" y2="1020"/></g></g>
+<rect x="72" y="1310" width="1056" height="150" rx="28" fill="#ffffff" opacity=".1" stroke="#ffd77d" stroke-opacity=".45"/>
+<text x="112" y="1375" fill="#ffdc91" font-family="Arial,sans-serif" font-size="27" font-weight="700">重点：Rutgers WebReg 自动注册操作</text>
+<text x="112" y="1420" fill="#f6e8eb" font-family="Arial,sans-serif" font-size="21">空位提醒页面负责发现机会；注册提交在 WebReg 完成。</text>
+<text x="80" y="1530" fill="#d7c4cb" font-family="Arial,sans-serif" font-size="20">Rutgers WebReg 选课助手 · Spring 2027</text>
+</svg>
